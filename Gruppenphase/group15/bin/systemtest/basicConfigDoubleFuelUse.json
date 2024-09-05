@@ -1,0 +1,573 @@
+{
+  "maxPlayers": 2,
+  "goal": {
+    "rounds": 1,
+    "moral": 15,
+    "zombiesColony": 1,
+    "zombiesLocations": 0,
+    "childrenInColony": 1,
+    "survive": true
+  },
+  "locations": [
+    {
+      "colony": {
+        "identifier": 3000,
+        "entrances": 6,
+        "startCards": [
+          1000,
+          1001,
+          1002,
+          1003,
+          1004,
+          1010,
+          1011,
+          1012,
+          1013,
+          1014,
+          1020,
+          1021,
+          1022,
+          1023,
+          1024,
+          1030,
+          1031,
+          1032,
+          1033,
+          1034,
+          1040,
+          1041,
+          1042,
+          1043,
+          1044
+        ]
+      }
+    },
+    {
+      "name": "Outpost",
+      "identifier": 3001,
+      "entrances": 1,
+      "survivorSpaces": 3,
+      "cards": [
+        1005,
+        1006,
+        1007,
+        1008,
+        1009,
+        1015,
+        1016,
+        1017,
+        1018,
+        1019,
+        1025,
+        1026,
+        1027,
+        1028,
+        1029,
+        1035,
+        1036,
+        1037,
+        1038,
+        1039,
+        1045,
+        1046,
+        1047,
+        1048,
+        1049
+      ]
+    }
+  ],
+  "characters": [
+    {
+      "name": "Hans",
+      "identifier": 2000,
+      "status": 28,
+      "attack": 5,
+      "search": 6,
+      "ability": {
+        "feed": {
+          "numFood": 4
+        }
+      }
+    },
+    {
+      "name": "Simon",
+      "identifier": 2001,
+      "status": 10,
+      "attack": 2,
+      "search": 1,
+      "ability": {
+        "feed": {
+          "numFood": 4
+        }
+      }
+    },
+    {
+      "name": "Ford Prefect",
+      "identifier": 2002,
+      "status": 42,
+      "attack": 5,
+      "search": 2,
+      "ability": {
+        "feed": {
+          "numFood": 4
+        }
+      }
+    },
+    {
+      "name": "Zaphod Beeblebrox",
+      "identifier": 2003,
+      "status": 61,
+      "attack": 5,
+      "search": 3,
+      "ability": {
+        "feed": {
+          "numFood": 4
+        }
+      }
+    },
+    {
+      "name": "Konrad Klug",
+      "identifier": 2004,
+      "status": 60,
+      "attack": 2,
+      "search": 3,
+      "ability": {
+        "feed": {
+          "numFood": 4
+        }
+      }
+    },
+    {
+      "name": "Jonathan",
+      "identifier": 2005,
+      "status": 21,
+      "attack": 6,
+      "search": 2,
+      "ability": {
+        "feed": {
+          "numFood": 4
+        }
+      }
+    },
+    {
+      "name": "Ford Prefect",
+      "identifier": 2006,
+      "status": 14,
+      "attack": 4,
+      "search": 4,
+      "ability": {
+        "feed": {
+          "numFood": 4
+        }
+      }
+    },
+    {
+      "name": "Homer Simpson",
+      "identifier": 2007,
+      "status": 24,
+      "attack": 6,
+      "search": 4,
+      "ability": {
+        "feed": {
+          "numFood": 4
+        }
+      }
+    },
+    {
+      "name": "Homer Simpson",
+      "identifier": 2008,
+      "status": 30,
+      "attack": 5,
+      "search": 3,
+      "ability": {
+        "feed": {
+          "numFood": 4
+        }
+      }
+    },
+    {
+      "name": "Niklas",
+      "identifier": 2009,
+      "status": 59,
+      "attack": 1,
+      "search": 1,
+      "ability": {
+        "feed": {
+          "numFood": 4
+        }
+      }
+    },
+    {
+      "name": "Ford Prefect",
+      "identifier": 2010,
+      "status": 47,
+      "attack": 5,
+      "search": 2,
+      "ability": {
+        "feed": {
+          "numFood": 4
+        }
+      }
+    },
+    {
+      "name": "Johannes",
+      "identifier": 2011,
+      "status": 15,
+      "attack": 6,
+      "search": 4,
+      "ability": {
+        "feed": {
+          "numFood": 4
+        }
+      }
+    }
+  ],
+  "crises": [
+    {
+      "food": {
+        "identifier": 4000,
+        "requiredCards": 5,
+        "moralChange": 2
+      }
+    },
+    {
+      "food": {
+        "identifier": 4001,
+        "requiredCards": 5,
+        "moralChange": 2
+      }
+    },
+    {
+      "food": {
+        "identifier": 4002,
+        "requiredCards": 5,
+        "moralChange": 2
+      }
+    },
+    {
+      "fuel": {
+        "identifier": 4003,
+        "requiredCards": 5,
+        "moralChange": 2
+      }
+    },
+    {
+      "fuel": {
+        "identifier": 4004,
+        "requiredCards": 5,
+        "moralChange": 2
+      }
+    },
+    {
+      "fuel": {
+        "identifier": 4005,
+        "requiredCards": 5,
+        "moralChange": 2
+      }
+    },
+    {
+      "medicine": {
+        "identifier": 4006,
+        "requiredCards": 5,
+        "moralChange": 2
+      }
+    },
+    {
+      "medicine": {
+        "identifier": 4007,
+        "requiredCards": 1,
+        "moralChange": 2
+      }
+    },
+    {
+      "medicine": {
+        "identifier": 4008,
+        "requiredCards": 5,
+        "moralChange": 2
+      }
+    },
+    {
+      "stuff": {
+        "identifier": 4009,
+        "requiredCards": 5,
+        "moralChange": 2
+      }
+    },
+    {
+      "stuff": {
+        "identifier": 4010,
+        "requiredCards": 5,
+        "moralChange": 2
+      }
+    },
+    {
+      "stuff": {
+        "identifier": 4011,
+        "requiredCards": 5,
+        "moralChange": 2
+      }
+    }
+  ],
+  "cards": [
+    {
+      "food": {
+        "amount": 1,
+        "identifier": 1000
+      }
+    },
+    {
+      "food": {
+        "amount": 1,
+        "identifier": 1001
+      }
+    },
+    {
+      "food": {
+        "amount": 1,
+        "identifier": 1002
+      }
+    },
+    {
+      "food": {
+        "amount": 1,
+        "identifier": 1003
+      }
+    },
+    {
+      "food": {
+        "amount": 1,
+        "identifier": 1004
+      }
+    },
+    {
+      "food": {
+        "amount": 1,
+        "identifier": 1005
+      }
+    },
+    {
+      "food": {
+        "amount": 1,
+        "identifier": 1006
+      }
+    },
+    {
+      "food": {
+        "amount": 1,
+        "identifier": 1007
+      }
+    },
+    {
+      "food": {
+        "amount": 1,
+        "identifier": 1008
+      }
+    },
+    {
+      "food": {
+        "amount": 1,
+        "identifier": 1009
+      }
+    },
+    {
+      "fuel": {
+        "identifier": 1010
+      }
+    },
+    {
+      "fuel": {
+        "identifier": 1011
+      }
+    },
+    {
+      "fuel": {
+        "identifier": 1012
+      }
+    },
+    {
+      "fuel": {
+        "identifier": 1013
+      }
+    },
+    {
+      "fuel": {
+        "identifier": 1014
+      }
+    },
+    {
+      "fuel": {
+        "identifier": 1015
+      }
+    },
+    {
+      "fuel": {
+        "identifier": 1016
+      }
+    },
+    {
+      "fuel": {
+        "identifier": 1017
+      }
+    },
+    {
+      "fuel": {
+        "identifier": 1018
+      }
+    },
+    {
+      "fuel": {
+        "identifier": 1019
+      }
+    },
+    {
+      "hammer": {
+        "identifier": 1020
+      }
+    },
+    {
+      "hammer": {
+        "identifier": 1021
+      }
+    },
+    {
+      "hammer": {
+        "identifier": 1022
+      }
+    },
+    {
+      "hammer": {
+        "identifier": 1023
+      }
+    },
+    {
+      "hammer": {
+        "identifier": 1024
+      }
+    },
+    {
+      "hammer": {
+        "identifier": 1025
+      }
+    },
+    {
+      "hammer": {
+        "identifier": 1026
+      }
+    },
+    {
+      "hammer": {
+        "identifier": 1027
+      }
+    },
+    {
+      "hammer": {
+        "identifier": 1028
+      }
+    },
+    {
+      "hammer": {
+        "identifier": 1029
+      }
+    },
+    {
+      "medicine": {
+        "identifier": 1030
+      }
+    },
+    {
+      "medicine": {
+        "identifier": 1031
+      }
+    },
+    {
+      "medicine": {
+        "identifier": 1032
+      }
+    },
+    {
+      "fuel": {
+        "identifier": 1033
+      }
+    },
+    {
+      "medicine": {
+        "identifier": 1034
+      }
+    },
+    {
+      "medicine": {
+        "identifier": 1035
+      }
+    },
+    {
+      "medicine": {
+        "identifier": 1036
+      }
+    },
+    {
+      "medicine": {
+        "identifier": 1037
+      }
+    },
+    {
+      "medicine": {
+        "identifier": 1038
+      }
+    },
+    {
+      "medicine": {
+        "identifier": 1039
+      }
+    },
+    {
+      "scissors": {
+        "identifier": 1040
+      }
+    },
+    {
+      "scissors": {
+        "identifier": 1041
+      }
+    },
+    {
+      "scissors": {
+        "identifier": 1042
+      }
+    },
+    {
+      "scissors": {
+        "identifier": 1043
+      }
+    },
+    {
+      "scissors": {
+        "identifier": 1044
+      }
+    },
+    {
+      "scissors": {
+        "identifier": 1045
+      }
+    },
+    {
+      "scissors": {
+        "identifier": 1046
+      }
+    },
+    {
+      "scissors": {
+        "identifier": 1047
+      }
+    },
+    {
+      "scissors": {
+        "identifier": 1048
+      }
+    },
+    {
+      "scissors": {
+        "identifier": 1049
+      }
+    }
+  ]
+}

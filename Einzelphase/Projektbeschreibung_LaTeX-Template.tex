@@ -1,0 +1,61 @@
+\documentclass[10pt,a4paper]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage[margin=0.75in]{geometry}
+\usepackage[backgroundcolor=blue!20!white]{todonotes}
+\usepackage{titling}
+%\setlength{\droptitle}{-10em}
+\begin{document}
+\title{SoPra - \textbf{Projektbeschreibung}\\ - Einzelphase -}
+\renewcommand\maketitlehookc{\vspace{-9ex}}
+\maketitle
+
+\begin{center}
+    Max Musterfrau \textbf{0000001}
+\end{center}
+
+\todo[inline,backgroundcolor=red]{Dieses Dokument erklärt oberflächlich den Aufbau des Servers der Referenzimplementierung aus
+der Gruppenphase. In Ihrer Abgabe müssen Sie die Funktionsweise des Servers nicht genauer erklären, solange Sie auf unserer
+Implementierung aufbauen. Sie sollten jedoch möglichst detailliert die eingeführten Änderungen und deren Funktionsweise erklären.
+Je ausführlicher Ihre Erklärung ist, desto besser können wir Ihren Entwurf bewerten. Dies kann im Zweifel entscheidend für das
+Bestehen des Software-Praktikums sein.}
+
+\section*{Funktionsweise}
+\todo[inline]{Hier beschreiben Sie, wie Ihr Server funktioniert und wie Sie die Änderungen umgesetzt haben.}
+\noindent Das Grundprinzip, nach dem wir unsere Implementierung entworfen haben, war \emph{MVC}. Wir haben also versucht, Logik und Daten voneinander
+abzutrennen. Um eben dies zu erreichen, nutzen wir eine Command- sowie zwei Visitor-Strukturen, welche die Spiellogik
+kapseln. Davon abgegrenzt sind unsere Datenklassen. Diese enthalten (fast) keine Logik, sondern nur Daten. Eine Ausnahme hierzu sind
+erweiterte Getter und Setter, welche den Spielzustand intern konsistent halten sollen.\\
+Falls die Spielerin nun ein Command an den Server sendet, so wird dieser direkt ausgeführt. Hierbei operiert der Command ausschließlich
+auf unserem Model und bekommt (zum Senden von Events) noch einen \linebreak \texttt{ConnectionWrapper}, welcher die \texttt{ServerConnection} wrapped.
+Für den Fall, dass ein Command ausgeführt wird, welcher von einer Ability beeinflusst wird, so wird ein entsprechender \texttt{AbilityVisitor}
+erstellt und der Visitor übernimmt die entsprechende Logik des eingegangenen Commands. Es gibt außerdem eine separate Visitor-Struktur,
+um das Nutzen von Karten abzuhandeln. Unsere Abilities sind als \emph{Decorator} modelliert.\\
+Ebenfalls nutzen wir einen Builder und Factories, um das Einlesen und Validieren der Konfigurationsdatei möglichst gut von unserer eigentlichen
+Modelstruktur abzukapseln.
+
+
+\section*{Designentscheidungen}
+\todo[inline]{Beschreiben Sie hier genau, wie Sie die bestehende Implementierung geändert haben und begründen Sie Ihre Entscheidungen.}
+\noindent Wir haben uns hauptsächlich für drei Patterns entschieden: \emph{Builder}, \emph{Visitor} und \emph{Command}.
+\begin{itemize}
+    \item \textbf{Builder}: Die Nutzung eines Builders erlaubt es uns, die Erstellung der Entities und der Welt zu kapseln.
+                            Ebenfalls haben wir uns dazu entschieden, das Parsen und Validieren so modular zu halten, dass
+                            es prinzipiell möglich wäre, eine andere Modelstruktur damit aufzubauen.
+    \item \textbf{Visitor}: Die Überlebenden haben verschiedene Fähigkeiten und können durch das Ausrüsten bestimmter Karten weitere
+                            Fähigkeiten hinzugewinnen. Um auf die richtige Fähigkeit korrekt zu reagiern, müssen wir wissen um welche
+                            es sich handelt. Dies realisieren wir durch die entsprechenden Visitors.
+    \item \textbf{Command}: Das Commandpattern bietet sich bei diesem Projekt gut an, da es die Interaktion mit der \texttt{ServerConnection}
+                            vorsieht, Commands zu verwenden. Wir nutzen die Commands, um die Befehle der Spieler auszuführen und die
+                            Logik der Befehle vom Rest des Spiels abzukapseln.
+\end{itemize}
+
+\section*{Herausforderungen}
+\todo[inline]{Welche Änderungen waren am schwierigsten umzusetzen? Wie haben Sie die daraus resultierenden Probleme gelöst?}
+\noindent Die größte Herausforderung bei diesem Projekt war es, das Handhaben der Fähigkeiten und Ausrüstungskarten zu modellieren ohne die Spiellogik überall zu
+verteilen, bzw. ohne mit \texttt{instanceof} o.Ä. herauszufinden mit welchen Abilities man gerade arbeitet. Die Nutzung der Visitors hilft hierbei.
+
+\end{document}

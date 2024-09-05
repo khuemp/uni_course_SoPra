@@ -1,0 +1,145 @@
+{
+  "$defs": {
+    "wound": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "before",
+        "after"
+      ],
+      "properties": {
+        "before": {
+          "type": "string",
+          "enum": [
+            "wound",
+            "frostBite",
+            "bite"
+          ]
+        },
+        "after": {
+          "type": "string",
+          "enum": [
+            "wound",
+            "frostBite",
+            "bite"
+          ]
+        }
+      }
+    },
+    "heal": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+      }
+    },
+    "feed": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "numFood"
+      ],
+      "properties": {
+        "numFood": {
+          "type": "integer"
+        }
+      }
+    },
+    "barricade": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "numBarricades",
+        "maxActivations"
+      ],
+      "properties": {
+        "numBarricades": {
+          "description": "The number of barricades constructed when using this ability.",
+          "type": "integer"
+        },
+        "maxActivations": {
+          "description": "specifies how often this ability can be used within one turn.",
+          "type": "integer"
+        }
+      }
+    },
+    "kill": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "dieValue",
+        "numZombies",
+        "maxActivations",
+        "locationId"
+      ],
+      "properties": {
+        "locationId": {
+          "description": "The id of the location where the ability is active.",
+          "type": "integer"
+        },
+        "dieValue": {
+          "description": "The smallest die value required ",
+          "type": "integer"
+        },
+        "numZombies": {
+          "description": "The number of zombies killed when using this ability.",
+          "type": "integer"
+        },
+        "infectionDie": {
+          "description": "Specifies if the infection dice has to be thrown.",
+          "type": "boolean"
+        },
+        "children": {
+          "description": "Specifies if helpless survivors are required to use this ability.",
+          "type": "boolean"
+        },
+        "maxActivations": {
+          "description": "Specifies how often this ability can be used within one turn.",
+          "type": "integer"
+        }
+      }
+    },
+    "no_infection": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+      ],
+      "properties": {
+      }
+    },
+    "search": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "numCards",
+        "location",
+        "maxActivations"
+      ],
+      "properties": {
+        "location": {
+          "description": "The id of the location where the ability is active.",
+          "type": "integer"
+        },
+        "numCards": {
+          "description": "The number of additional cards that can be drawn.",
+          "type": "integer"
+        },
+        "maxActivations": {
+          "description": "specifies how often this ability can be used within one turn.",
+          "type": "integer"
+        }
+      }
+    },
+    "trash": {
+      "type": "object",
+      "required": [
+        "numCards"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "numCards": {
+          "type": "integer"
+        }
+      }
+    }
+  }
+}

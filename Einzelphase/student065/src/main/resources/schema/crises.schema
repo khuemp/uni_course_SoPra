@@ -1,0 +1,75 @@
+{
+  "$defs": {
+    "base": {
+      "additionalProperties": false,
+      "properties": {
+        "moralChange": {
+          "minimum": 1,
+          "type": "number"
+        },
+        "requiredCards": {
+          "minimum": 1,
+          "type": "number"
+        },
+        "identifier": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "moralChange",
+        "requiredCards",
+        "identifier"
+      ],
+      "type": "object"
+    },
+    "crisis": {
+      "type": "object",
+      "oneOf": [
+        {
+          "additionalProperties": false,
+          "properties": {
+            "food": {
+              "$ref": "#/$defs/base"
+            }
+          },
+          "required": [
+            "food"
+          ]
+        },
+        {
+          "additionalProperties": false,
+          "properties": {
+            "stuff": {
+              "$ref": "#/$defs/base"
+            }
+          },
+          "required": [
+            "stuff"
+          ]
+        },
+        {
+          "additionalProperties": false,
+          "properties": {
+            "medicine": {
+              "$ref": "#/$defs/base"
+            }
+          },
+          "required": [
+            "medicine"
+          ]
+        },
+        {
+          "additionalProperties": false,
+          "properties": {
+            "fuel": {
+              "$ref": "#/$defs/base"
+            }
+          },
+          "required": [
+            "fuel"
+          ]
+        }
+      ]
+    }
+  }
+}

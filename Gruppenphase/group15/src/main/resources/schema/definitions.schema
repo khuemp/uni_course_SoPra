@@ -1,0 +1,9 @@
+{
+  "$defs": {
+    "identifier": {
+      "description": "Has to be unique. Identifier of cards are only allowed once in any staple.",
+      "type": "number",
+      "minimum": 1
+    }
+  }
+}

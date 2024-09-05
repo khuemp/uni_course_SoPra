@@ -1,0 +1,821 @@
+{
+  "maxPlayers": 5,
+  "goal": {
+    "rounds": 1,
+    "moral": 20,
+    "zombiesColony": 6,
+    "zombiesLocations": 0,
+    "childrenInColony": 1,
+    "survive": true
+  },
+  "locations": [
+    {
+      "colony": {
+        "identifier": 3000,
+        "entrances": 6,
+        "startCards": [
+          1000,
+          1001,
+          1002,
+          1003,
+          1004,
+          1005,
+          1006,
+          1007,
+          1008,
+          1009,
+          1010,
+          1011,
+          1012,
+          1013,
+          1014,
+          1015,
+          1016,
+          1017,
+          1018,
+          1019,
+          1020,
+          1021,
+          1022,
+          1023,
+          1024,
+          1025,
+          1026,
+          1027,
+          1028,
+          1029,
+          1030,
+          1031,
+          1032,
+          1033,
+          1034,
+          1035,
+          1036,
+          1037,
+          1038,
+          1039,
+          1040,
+          1041,
+          1042,
+          1043,
+          1044,
+          1045,
+          1046,
+          1047,
+          1048,
+          1049,
+          1050,
+          1051,
+          1052,
+          1053,
+          1054,
+          1055,
+          1056,
+          1057,
+          1058,
+          1059,
+          1060,
+          1061,
+          1062,
+          1063
+        ]
+      }
+    }
+  ],
+  "characters": [
+    {
+      "name": "Ford Prefect",
+      "identifier": 2000,
+      "status": 2,
+      "attack": 6,
+      "search": 4,
+      "ability": {
+        "wound": {
+          "before": "bite",
+          "after": "frostBite"
+        }
+      }
+    },
+    {
+      "name": "Simon",
+      "identifier": 2001,
+      "status": 3,
+      "attack": 4,
+      "search": 2,
+      "ability": {
+        "wound": {
+          "before": "bite",
+          "after": "frostBite"
+        }
+      }
+    },
+    {
+      "name": "Artur Zahn",
+      "identifier": 2002,
+      "status": 4,
+      "attack": 5,
+      "search": 6,
+      "ability": {
+        "wound": {
+          "before": "bite",
+          "after": "frostBite"
+        }
+      }
+    },
+    {
+      "name": "Dieter Schlau",
+      "identifier": 2003,
+      "status": 5,
+      "attack": 2,
+      "search": 6,
+      "ability": {
+        "wound": {
+          "before": "bite",
+          "after": "frostBite"
+        }
+      }
+    },
+    {
+      "name": "Jonathan",
+      "identifier": 2004,
+      "status": 6,
+      "attack": 1,
+      "search": 3,
+      "ability": {
+        "wound": {
+          "before": "bite",
+          "after": "frostBite"
+        }
+      }
+    },
+    {
+      "name": "Simon",
+      "identifier": 2005,
+      "status": 7,
+      "attack": 1,
+      "search": 6,
+      "ability": {
+        "wound": {
+          "before": "bite",
+          "after": "frostBite"
+        }
+      }
+    },
+    {
+      "name": "UnfunnyNameException",
+      "identifier": 2006,
+      "status": 8,
+      "attack": 4,
+      "search": 2,
+      "ability": {
+        "wound": {
+          "before": "bite",
+          "after": "frostBite"
+        }
+      }
+    },
+    {
+      "name": "Konrad Klug",
+      "identifier": 2007,
+      "status": 9,
+      "attack": 5,
+      "search": 1,
+      "ability": {
+        "wound": {
+          "before": "bite",
+          "after": "frostBite"
+        }
+      }
+    },
+    {
+      "name": "Julia",
+      "identifier": 2008,
+      "status": 10,
+      "attack": 1,
+      "search": 2,
+      "ability": {
+        "wound": {
+          "before": "bite",
+          "after": "frostBite"
+        }
+      }
+    },
+    {
+      "name": "Zaphod Beeblebrox",
+      "identifier": 2009,
+      "status": 12,
+      "attack": 2,
+      "search": 1,
+      "ability": {
+        "wound": {
+          "before": "bite",
+          "after": "frostBite"
+        }
+      }
+    },
+    {
+      "name": "Homer Simpson",
+      "identifier": 2010,
+      "status": 13,
+      "attack": 4,
+      "search": 6,
+      "ability": {
+        "wound": {
+          "before": "bite",
+          "after": "frostBite"
+        }
+      }
+    },
+    {
+      "name": "Dieter Schlau",
+      "identifier": 2011,
+      "status": 14,
+      "attack": 3,
+      "search": 4,
+      "ability": {
+        "wound": {
+          "before": "bite",
+          "after": "frostBite"
+        }
+      }
+    },
+    {
+      "name": "Lauritz",
+      "identifier": 2012,
+      "status": 15,
+      "attack": 2,
+      "search": 4,
+      "ability": {
+        "wound": {
+          "before": "bite",
+          "after": "frostBite"
+        }
+      }
+    },
+    {
+      "name": "Ford Prefect",
+      "identifier": 2013,
+      "status": 16,
+      "attack": 5,
+      "search": 5,
+      "ability": {
+        "wound": {
+          "before": "bite",
+          "after": "frostBite"
+        }
+      }
+    },
+    {
+      "name": "Kaeptn Blaubaer",
+      "identifier": 2014,
+      "status": 17,
+      "attack": 4,
+      "search": 4,
+      "ability": {
+        "wound": {
+          "before": "bite",
+          "after": "frostBite"
+        }
+      }
+    },
+    {
+      "name": "Maxi",
+      "identifier": 2015,
+      "status": 18,
+      "attack": 4,
+      "search": 4,
+      "ability": {
+        "wound": {
+          "before": "bite",
+          "after": "frostBite"
+        }
+      }
+    },
+    {
+      "name": "Kai",
+      "identifier": 2016,
+      "status": 19,
+      "attack": 6,
+      "search": 2,
+      "ability": {
+        "wound": {
+          "before": "bite",
+          "after": "frostBite"
+        }
+      }
+    },
+    {
+      "name": "Er",
+      "identifier": 2017,
+      "status": 20,
+      "attack": 1,
+      "search": 3,
+      "ability": {
+        "wound": {
+          "before": "bite",
+          "after": "frostBite"
+        }
+      }
+    },
+    {
+      "name": "Lauritz",
+      "identifier": 2018,
+      "status": 21,
+      "attack": 5,
+      "search": 6,
+      "ability": {
+        "wound": {
+          "before": "bite",
+          "after": "frostBite"
+        }
+      }
+    },
+    {
+      "name": "Johannes",
+      "identifier": 2019,
+      "status": 22,
+      "attack": 1,
+      "search": 4,
+      "ability": {
+        "wound": {
+          "before": "bite",
+          "after": "frostBite"
+        }
+      }
+    },
+    {
+      "name": "UnfunnyNameException",
+      "identifier": 2020,
+      "status": 23,
+      "attack": 2,
+      "search": 3,
+      "ability": {
+        "wound": {
+          "before": "bite",
+          "after": "frostBite"
+        }
+      }
+    },
+    {
+      "name": "Er",
+      "identifier": 2021,
+      "status": 24,
+      "attack": 2,
+      "search": 1,
+      "ability": {
+        "wound": {
+          "before": "bite",
+          "after": "frostBite"
+        }
+      }
+    },
+    {
+      "name": "Konrad Klug",
+      "identifier": 2022,
+      "status": 25,
+      "attack": 2,
+      "search": 3,
+      "ability": {
+        "wound": {
+          "before": "bite",
+          "after": "frostBite"
+        }
+      }
+    },
+    {
+      "name": "UnfunnyNameException",
+      "identifier": 2023,
+      "status": 26,
+      "attack": 6,
+      "search": 5,
+      "ability": {
+        "wound": {
+          "before": "bite",
+          "after": "frostBite"
+        }
+      }
+    },
+    {
+      "name": "Julia",
+      "identifier": 2024,
+      "status": 27,
+      "attack": 5,
+      "search": 5,
+      "ability": {
+        "wound": {
+          "before": "bite",
+          "after": "frostBite"
+        }
+      }
+    },
+    {
+      "name": "Konrad Klug",
+      "identifier": 2025,
+      "status": 28,
+      "attack": 2,
+      "search": 4,
+      "ability": {
+        "wound": {
+          "before": "bite",
+          "after": "frostBite"
+        }
+      }
+    },
+    {
+      "name": "Er",
+      "identifier": 2026,
+      "status": 29,
+      "attack": 3,
+      "search": 3,
+      "ability": {
+        "wound": {
+          "before": "bite",
+          "after": "frostBite"
+        }
+      }
+    },
+    {
+      "name": "Niklas",
+      "identifier": 2027,
+      "status": 30,
+      "attack": 6,
+      "search": 3,
+      "ability": {
+        "wound": {
+          "before": "bite",
+          "after": "frostBite"
+        }
+      }
+    },
+    {
+      "name": "Konrad Klug",
+      "identifier": 2028,
+      "status": 31,
+      "attack": 5,
+      "search": 1,
+      "ability": {
+        "wound": {
+          "before": "bite",
+          "after": "frostBite"
+        }
+      }
+    },
+    {
+      "name": "Konrad Klug",
+      "identifier": 2029,
+      "status": 32,
+      "attack": 3,
+      "search": 1,
+      "ability": {
+        "wound": {
+          "before": "bite",
+          "after": "frostBite"
+        }
+      }
+    },
+    {
+      "name": "Ford Prefect",
+      "identifier": 2030,
+      "status": 33,
+      "attack": 1,
+      "search": 2,
+      "ability": {
+        "wound": {
+          "before": "bite",
+          "after": "frostBite"
+        }
+      }
+    }
+  ],
+  "crises": [
+    {
+      "fuel": {
+        "identifier": 4000,
+        "requiredCards": 5,
+        "moralChange": 2
+      }
+    }
+  ],
+  "cards": [
+    {
+      "scissors": {
+        "identifier": 1000
+      }
+    },
+    {
+      "scissors": {
+        "identifier": 1001
+      }
+    },
+    {
+      "scissors": {
+        "identifier": 1002
+      }
+    },
+    {
+      "scissors": {
+        "identifier": 1003
+      }
+    },
+    {
+      "scissors": {
+        "identifier": 1004
+      }
+    },
+    {
+      "scissors": {
+        "identifier": 1005
+      }
+    },
+    {
+      "scissors": {
+        "identifier": 1006
+      }
+    },
+    {
+      "scissors": {
+        "identifier": 1007
+      }
+    },
+    {
+      "scissors": {
+        "identifier": 1008
+      }
+    },
+    {
+      "scissors": {
+        "identifier": 1009
+      }
+    },
+    {
+      "scissors": {
+        "identifier": 1010
+      }
+    },
+    {
+      "scissors": {
+        "identifier": 1011
+      }
+    },
+    {
+      "scissors": {
+        "identifier": 1012
+      }
+    },
+    {
+      "scissors": {
+        "identifier": 1013
+      }
+    },
+    {
+      "scissors": {
+        "identifier": 1014
+      }
+    },
+    {
+      "scissors": {
+        "identifier": 1015
+      }
+    },
+    {
+      "scissors": {
+        "identifier": 1016
+      }
+    },
+    {
+      "scissors": {
+        "identifier": 1017
+      }
+    },
+    {
+      "scissors": {
+        "identifier": 1018
+      }
+    },
+    {
+      "scissors": {
+        "identifier": 1019
+      }
+    },
+    {
+      "scissors": {
+        "identifier": 1020
+      }
+    },
+    {
+      "scissors": {
+        "identifier": 1021
+      }
+    },
+    {
+      "scissors": {
+        "identifier": 1022
+      }
+    },
+    {
+      "scissors": {
+        "identifier": 1023
+      }
+    },
+    {
+      "scissors": {
+        "identifier": 1024
+      }
+    },
+    {
+      "scissors": {
+        "identifier": 1025
+      }
+    },
+    {
+      "scissors": {
+        "identifier": 1026
+      }
+    },
+    {
+      "scissors": {
+        "identifier": 1027
+      }
+    },
+    {
+      "scissors": {
+        "identifier": 1028
+      }
+    },
+    {
+      "scissors": {
+        "identifier": 1029
+      }
+    },
+    {
+      "scissors": {
+        "identifier": 1030
+      }
+    },
+    {
+      "scissors": {
+        "identifier": 1031
+      }
+    },
+    {
+      "scissors": {
+        "identifier": 1032
+      }
+    },
+    {
+      "scissors": {
+        "identifier": 1033
+      }
+    },
+    {
+      "scissors": {
+        "identifier": 1034
+      }
+    },
+    {
+      "scissors": {
+        "identifier": 1035
+      }
+    },
+    {
+      "scissors": {
+        "identifier": 1036
+      }
+    },
+    {
+      "scissors": {
+        "identifier": 1037
+      }
+    },
+    {
+      "scissors": {
+        "identifier": 1038
+      }
+    },
+    {
+      "scissors": {
+        "identifier": 1039
+      }
+    },
+    {
+      "scissors": {
+        "identifier": 1040
+      }
+    },
+    {
+      "scissors": {
+        "identifier": 1041
+      }
+    },
+    {
+      "scissors": {
+        "identifier": 1042
+      }
+    },
+    {
+      "scissors": {
+        "identifier": 1043
+      }
+    },
+    {
+      "scissors": {
+        "identifier": 1044
+      }
+    },
+    {
+      "scissors": {
+        "identifier": 1045
+      }
+    },
+    {
+      "scissors": {
+        "identifier": 1046
+      }
+    },
+    {
+      "scissors": {
+        "identifier": 1047
+      }
+    },
+    {
+      "scissors": {
+        "identifier": 1048
+      }
+    },
+    {
+      "scissors": {
+        "identifier": 1049
+      }
+    },
+    {
+      "scissors": {
+        "identifier": 1050
+      }
+    },
+    {
+      "scissors": {
+        "identifier": 1051
+      }
+    },
+    {
+      "scissors": {
+        "identifier": 1052
+      }
+    },
+    {
+      "scissors": {
+        "identifier": 1053
+      }
+    },
+    {
+      "scissors": {
+        "identifier": 1054
+      }
+    },
+    {
+      "scissors": {
+        "identifier": 1055
+      }
+    },
+    {
+      "scissors": {
+        "identifier": 1056
+      }
+    },
+    {
+      "scissors": {
+        "identifier": 1057
+      }
+    },
+    {
+      "scissors": {
+        "identifier": 1058
+      }
+    },
+    {
+      "scissors": {
+        "identifier": 1059
+      }
+    },
+    {
+      "scissors": {
+        "identifier": 1060
+      }
+    },
+    {
+      "scissors": {
+        "identifier": 1061
+      }
+    },
+    {
+      "scissors": {
+        "identifier": 1062
+      }
+    },
+    {
+      "scissors": {
+        "identifier": 1063
+      }
+    }
+  ]
+}

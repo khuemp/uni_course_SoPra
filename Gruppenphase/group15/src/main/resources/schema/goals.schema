@@ -1,0 +1,63 @@
+{
+  "$defs": {
+    "goal": {
+      "additionalProperties": false,
+      "oneOf": [
+        {
+          "required": [
+            "locationWithZombies"
+          ]
+        },
+        {
+          "required": [
+            "barricades"
+          ]
+        },
+        {
+          "required": [
+            "survive"
+          ]
+        }
+      ],
+      "properties": {
+        "barricades": {
+          "type": "integer"
+        },
+        "locationWithZombies": {
+          "type": "integer"
+        },
+        "moral": {
+          "minimum": 1,
+          "type": "number"
+        },
+        "rounds": {
+          "minimum": 1,
+          "type": "number"
+        },
+        "survive": {
+          "type": "boolean"
+        },
+        "zombiesColony": {
+          "minimum": 0,
+          "type": "number"
+        },
+        "zombiesLocations": {
+          "minimum": 0,
+          "type": "number"
+        },
+        "childrenInColony": {
+          "minimum": 0,
+          "type": "number"
+        }
+      },
+      "required": [
+        "moral",
+        "rounds",
+        "zombiesColony",
+        "zombiesLocations",
+        "childrenInColony"
+      ],
+      "type": "object"
+    }
+  }
+}

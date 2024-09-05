@@ -1,0 +1,69 @@
+{
+  "$defs": {
+    "location": {
+      "additionalProperties": false,
+      "properties": {
+        "cards": {
+          "items": {
+            "$ref": "definitions.schema#/$defs/identifier"
+          },
+          "type": "array"
+        },
+        "entrances": {
+          "minimum": 1,
+          "type": "number"
+        },
+        "identifier": {
+          "$ref": "definitions.schema#/$defs/identifier"
+        },
+        "name": {
+          "type": "string"
+        },
+        "survivorSpaces": {
+          "minimum": 1,
+          "type": "number"
+        }
+      },
+      "required": [
+        "entrances",
+        "identifier",
+        "name",
+        "survivorSpaces"
+      ],
+      "type": "object"
+    },
+    "colony": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "colony": {
+          "additionalProperties": false,
+          "type": "object",
+          "properties": {
+            "entrances": {
+              "minimum": 1,
+              "type": "number"
+            },
+            "identifier": {
+              "$ref": "definitions.schema#/$defs/identifier"
+            },
+            "startCards": {
+              "items": {
+                "$ref": "definitions.schema#/$defs/identifier"
+              },
+              "type": "array"
+            }
+          },
+          "required": [
+            "entrances",
+            "startCards",
+            "identifier"
+          ]
+        }
+      },
+      "required": [
+        "colony"
+      ]
+    }
+  }
+}

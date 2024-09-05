@@ -1,0 +1,135 @@
+{
+  "$defs": {
+    "character": {
+      "additionalProperties": false,
+      "properties": {
+        "ability": {
+          "oneOf": [
+            {
+              "type": "object",
+              "additionalProperties": false,
+              "properties": {
+                "wound": {
+                  "$ref": "abilities.schema#/$defs/wound"
+                }
+              },
+              "required": [
+                "wound"
+              ]
+            },
+            {
+              "type": "object",
+              "additionalProperties": false,
+              "properties": {
+                "heal": {
+                  "$ref": "abilities.schema#/$defs/heal"
+                }
+              },
+              "required": [
+                "heal"
+              ]
+            },
+            {
+              "type": "object",
+              "additionalProperties": false,
+              "properties": {
+                "feed": {
+                  "$ref": "abilities.schema#/$defs/feed"
+                }
+              },
+              "required": [
+                "feed"
+              ]
+            },
+            {
+              "type": "object",
+              "additionalProperties": false,
+              "properties": {
+                "barricade": {
+                  "$ref": "abilities.schema#/$defs/barricade"
+                }
+              },
+              "required": [
+                "barricade"
+              ]
+            },
+            {
+              "type": "object",
+              "additionalProperties": false,
+              "properties": {
+                "kill": {
+                  "$ref": "abilities.schema#/$defs/kill"
+                }
+              },
+              "required": [
+                "kill"
+              ]
+            },
+            {
+              "type": "object",
+              "additionalProperties": false,
+              "properties": {
+                "no_infection": {
+                  "$ref": "abilities.schema#/$defs/no_infection"
+                }
+              },
+              "required": [
+                "no_infection"
+              ]
+            },
+            {
+              "type": "object",
+              "additionalProperties": false,
+              "properties": {
+                "search": {
+                  "$ref": "abilities.schema#/$defs/search"
+                }
+              },
+              "required": [
+                "search"
+              ]
+            },
+            {
+              "type": "object",
+              "additionalProperties": false,
+              "properties": {
+                "trash": {
+                  "$ref": "abilities.schema#/$defs/trash"
+                }
+              },
+              "required": [
+                "trash"
+              ]
+            }
+          ]
+        },
+        "attack": {
+          "minimum": 1,
+          "type": "number"
+        },
+        "identifier": {
+          "$ref": "definitions.schema#/$defs/identifier"
+        },
+        "name": {
+          "type": "string"
+        },
+        "search": {
+          "minimum": 1,
+          "type": "number"
+        },
+        "status": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "ability",
+        "attack",
+        "identifier",
+        "name",
+        "search",
+        "status"
+      ],
+      "type": "object"
+    }
+  }
+}

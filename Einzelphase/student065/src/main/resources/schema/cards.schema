@@ -1,0 +1,159 @@
+{
+  "$defs": {
+    "base": {
+      "additionalProperties": false,
+      "properties": {
+        "identifier": {
+          "$ref": "definitions.schema#/$defs/identifier"
+        }
+      },
+      "required": [
+        "identifier"
+      ],
+      "type": "object"
+    },
+    "card": {
+      "type": "object",
+      "oneOf": [
+        {
+          "properties": {
+            "blueprint": {
+              "additionalProperties": false,
+              "properties": {
+                "identifier": {
+                  "$ref": "definitions.schema#/$defs/identifier"
+                },
+                "location": {
+                  "type": "integer"
+                }
+              },
+              "required": [
+                "identifier",
+                "location"
+              ],
+              "type": "object"
+            }
+          },
+          "required": [
+            "blueprint"
+          ]
+        },
+        {
+          "properties": {
+            "colt": {
+              "$ref": "#/$defs/base"
+            }
+          },
+          "required": [
+            "colt"
+          ]
+        },
+        {
+          "properties": {
+            "food": {
+              "additionalProperties": false,
+              "properties": {
+                "identifier": {
+                  "type": "number",
+                  "minimum": 1
+                },
+                "amount": {
+                  "type": "number",
+                  "minimum": 1
+                }
+              },
+              "required": [
+                "amount",
+                "identifier"
+              ],
+              "type": "object"
+            }
+          },
+          "required": [
+            "food"
+          ]
+        },
+        {
+          "properties": {
+            "fuel": {
+              "$ref": "#/$defs/base"
+            }
+          },
+          "required": [
+            "fuel"
+          ]
+        },
+        {
+          "properties": {
+            "hammer": {
+              "$ref": "#/$defs/base"
+            }
+          },
+          "required": [
+            "hammer"
+          ]
+        },
+        {
+          "properties": {
+            "lock": {
+              "$ref": "#/$defs/base"
+            }
+          },
+          "required": [
+            "lock"
+          ]
+        },
+        {
+          "properties": {
+            "medicine": {
+              "$ref": "#/$defs/base"
+            }
+          },
+          "required": [
+            "medicine"
+          ]
+        },
+        {
+          "properties": {
+            "scissors": {
+              "$ref": "#/$defs/base"
+            }
+          },
+          "required": [
+            "scissors"
+          ]
+        },
+        {
+          "properties": {
+            "snow_boots": {
+              "$ref": "#/$defs/base"
+            }
+          },
+          "required": [
+            "snow_boots"
+          ]
+        },
+        {
+          "properties": {
+            "stuff": {
+              "$ref": "#/$defs/base"
+            }
+          },
+          "required": [
+            "stuff"
+          ]
+        },
+        {
+          "properties": {
+            "swab": {
+              "$ref": "#/$defs/base"
+            }
+          },
+          "required": [
+            "swab"
+          ]
+        }
+      ]
+    }
+  }
+}

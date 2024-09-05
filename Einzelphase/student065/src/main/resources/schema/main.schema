@@ -1,0 +1,75 @@
+{
+  "$schema": "https://json-schema.org/draft-07/schema",
+  "additionalProperties": false,
+  "description": "JSON schema for game configuration file.",
+  "properties": {
+    "maxPlayers": {
+      "type": "number",
+      "minimum": 1
+    },
+    "cards": {
+      "type": "array",
+      "items": {
+        "$ref": "cards.schema#/$defs/card"
+      },
+      "uniqueItems": true
+    },
+    "crossroads": {
+      "type": "array",
+      "items": {
+        "$ref": "crossroads.schema#/$defs/crossroad"
+      },
+      "uniqueItems": true
+    },
+    "crises": {
+      "type": "array",
+      "items": {
+        "$ref": "crises.schema#/$defs/crisis"
+      },
+      "uniqueItems": true
+    },
+    "goal": {
+      "$ref": "goals.schema#/$defs/goal"
+    },
+    "locations": {
+      "description": "List of locations of game world.",
+      "type": "array",
+      "items": {
+        "oneOf": [
+          {
+            "$ref": "locations.schema#/$defs/colony",
+            "description": "Definition of colony is required."
+          },
+          {
+            "$ref": "locations.schema#/$defs/location",
+            "description": "Other locations."
+          }
+        ]
+      },
+      "contains": {
+        "$ref": "locations.schema#/$defs/colony"
+      },
+      "maxContains": 1,
+      "uniqueItems": true
+    },
+    "characters": {
+      "description": "List of available characters.",
+      "type": "array",
+      "items": {
+        "$ref": "characters.schema#/$defs/character"
+      },
+      "uniqueItems": true
+    }
+  },
+  "required": [
+    "cards",
+    "crossroads",
+    "crises",
+    "goal",
+    "locations",
+    "characters",
+    "maxPlayers"
+  ],
+  "title": "Configuration",
+  "type": "object"
+}

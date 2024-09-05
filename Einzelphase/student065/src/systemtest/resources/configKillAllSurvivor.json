@@ -1,0 +1,2408 @@
+{
+  "maxPlayers": 5,
+  "crossroads": [
+    {
+      "barricaded": {
+        "identifier": 1,
+        "locationId": 42,
+        "consequence": {
+          "changeFood": {
+            "amount": 2
+          }
+        }
+      }
+    },
+    {
+      "barricaded": {
+        "identifier": 2,
+        "consequence": {
+          "changeMoral": {
+            "amount": 2
+          }
+        }
+      }
+    },
+    {
+      "moved": {
+        "identifier": 3,
+        "locationId": 1,
+        "consequence": {
+          "spawnSurvivors": {
+            "amount": 2,
+            "children": true
+          }
+        }
+      }
+    },
+    {
+      "moved": {
+        "identifier": 4,
+        "consequence": {
+          "spawnSurvivors": {
+            "amount": 1
+          }
+        }
+      }
+    },
+    {
+      "searched": {
+        "identifier": 5,
+        "consequence": {
+          "spawnZombies": {
+            "amount": 1
+          }
+        }
+      }
+    },
+    {
+      "searched": {
+        "identifier": 6,
+        "locationId": 2,
+        "consequence": {
+          "spawnZombies": {
+            "amount": 2,
+            "locationId": 42
+          }
+        }
+      }
+    },
+    {
+      "wasteChanged": {
+        "identifier": 7,
+        "amount": 2,
+        "consequence": {
+          "choice": {
+            "consequence1": {
+              "spawnZombies": {
+                "amount": 2,
+                "locationId": 42
+              }
+            },
+            "consequence2": {
+              "changeFood": {
+                "amount": 2
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "equip": {
+        "identifier": 8,
+        "consequence": {
+          "changeMoral": {
+            "amount": 2
+          }
+        }
+      }
+    },
+    {
+      "barricaded": {
+        "identifier": 9,
+        "locationId": 42,
+        "consequence": {
+          "changeFood": {
+            "amount": 2
+          }
+        }
+      }
+    },
+    {
+      "barricaded": {
+        "identifier": 10,
+        "consequence": {
+          "spawnZombies": {
+            "amount": 7,
+            "locationId": 42
+          }
+        }
+      }
+    },
+    {
+      "moved": {
+        "identifier": 11,
+        "locationId": 1,
+        "consequence": {
+          "spawnSurvivors": {
+            "amount": 2,
+            "children": true
+          }
+        }
+      }
+    },
+    {
+      "moved": {
+        "identifier": 12,
+        "consequence": {
+          "spawnSurvivors": {
+            "amount": 1
+          }
+        }
+      }
+    },
+    {
+      "searched": {
+        "identifier": 13,
+        "consequence": {
+          "spawnZombies": {
+            "amount": 1
+          }
+        }
+      }
+    },
+    {
+      "searched": {
+        "identifier": 14,
+        "locationId": 2,
+        "consequence": {
+          "spawnZombies": {
+            "amount": 2,
+            "locationId": 42
+          }
+        }
+      }
+    },
+    {
+      "wasteChanged": {
+        "identifier": 15,
+        "amount": 2,
+        "consequence": {
+          "choice": {
+            "consequence1": {
+              "spawnZombies": {
+                "amount": 2,
+                "locationId": 42
+              }
+            },
+            "consequence2": {
+              "changeFood": {
+                "amount": 2
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "equip": {
+        "identifier": 16,
+        "consequence": {
+          "changeMoral": {
+            "amount": 2
+          }
+        }
+      }
+    },
+    {
+      "barricaded": {
+        "identifier": 17,
+        "locationId": 42,
+        "consequence": {
+          "changeFood": {
+            "amount": 2
+          }
+        }
+      }
+    },
+    {
+      "barricaded": {
+        "identifier": 18,
+        "consequence": {
+          "changeMoral": {
+            "amount": 2
+          }
+        }
+      }
+    },
+    {
+      "moved": {
+        "identifier": 19,
+        "locationId": 1,
+        "consequence": {
+          "spawnSurvivors": {
+            "amount": 2,
+            "children": true
+          }
+        }
+      }
+    },
+    {
+      "moved": {
+        "identifier": 20,
+        "consequence": {
+          "spawnSurvivors": {
+            "amount": 1
+          }
+        }
+      }
+    },
+    {
+      "searched": {
+        "identifier": 21,
+        "consequence": {
+          "spawnZombies": {
+            "amount": 1
+          }
+        }
+      }
+    },
+    {
+      "searched": {
+        "identifier": 22,
+        "locationId": 2,
+        "consequence": {
+          "spawnZombies": {
+            "amount": 2,
+            "locationId": 42
+          }
+        }
+      }
+    },
+    {
+      "wasteChanged": {
+        "identifier": 23,
+        "amount": 2,
+        "consequence": {
+          "choice": {
+            "consequence1": {
+              "spawnZombies": {
+                "amount": 2,
+                "locationId": 42
+              }
+            },
+            "consequence2": {
+              "changeFood": {
+                "amount": 2
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "equip": {
+        "identifier": 24,
+        "consequence": {
+          "changeMoral": {
+            "amount": 2
+          }
+        }
+      }
+    },
+    {
+      "barricaded": {
+        "identifier": 25,
+        "locationId": 42,
+        "consequence": {
+          "changeFood": {
+            "amount": 2
+          }
+        }
+      }
+    },
+    {
+      "barricaded": {
+        "identifier": 26,
+        "consequence": {
+          "changeMoral": {
+            "amount": 2
+          }
+        }
+      }
+    },
+    {
+      "moved": {
+        "identifier": 27,
+        "locationId": 1,
+        "consequence": {
+          "spawnSurvivors": {
+            "amount": 2,
+            "children": true
+          }
+        }
+      }
+    },
+    {
+      "moved": {
+        "identifier": 28,
+        "consequence": {
+          "spawnSurvivors": {
+            "amount": 1
+          }
+        }
+      }
+    },
+    {
+      "searched": {
+        "identifier": 29,
+        "consequence": {
+          "spawnZombies": {
+            "amount": 1
+          }
+        }
+      }
+    },
+    {
+      "searched": {
+        "identifier": 30,
+        "locationId": 1,
+        "consequence": {
+          "spawnZombies": {
+            "amount": 4,
+            "locationId": 3
+          }
+        }
+      }
+    },
+    {
+      "wasteChanged": {
+        "identifier": 31,
+        "amount": 2,
+        "consequence": {
+          "choice": {
+            "consequence1": {
+              "spawnZombies": {
+                "amount": 2,
+                "locationId": 42
+              }
+            },
+            "consequence2": {
+              "changeFood": {
+                "amount": 2
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "equip": {
+        "identifier": 32,
+        "consequence": {
+          "changeMoral": {
+            "amount": 2
+          }
+        }
+      }
+    },
+    {
+      "barricaded": {
+        "identifier": 33,
+        "locationId": 42,
+        "consequence": {
+          "changeFood": {
+            "amount": 2
+          }
+        }
+      }
+    },
+    {
+      "searched": {
+        "identifier": 34,
+        "consequence": {
+          "spawnZombies": {
+            "amount": 1
+          }
+        }
+      }
+    },
+    {
+      "moved": {
+        "identifier": 35,
+        "locationId": 1,
+        "consequence": {
+          "spawnSurvivors": {
+            "amount": 2,
+            "children": true
+          }
+        }
+      }
+    },
+    {
+      "moved": {
+        "identifier": 36,
+        "consequence": {
+          "spawnSurvivors": {
+            "amount": 1
+          }
+        }
+      }
+    },
+    {
+      "barricaded": {
+        "identifier": 37,
+        "consequence": {
+          "changeMoral": {
+            "amount": 2
+          }
+        }
+      }
+    },
+    {
+      "searched": {
+        "identifier": 38,
+        "locationId": 2,
+        "consequence": {
+          "spawnZombies": {
+            "amount": 2,
+            "locationId": 42
+          }
+        }
+      }
+    },
+    {
+      "wasteChanged": {
+        "identifier": 39,
+        "amount": 2,
+        "consequence": {
+          "choice": {
+            "consequence1": {
+              "spawnZombies": {
+                "amount": 2,
+                "locationId": 42
+              }
+            },
+            "consequence2": {
+              "changeFood": {
+                "amount": 2
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "equip": {
+        "identifier": 40,
+        "consequence": {
+          "changeMoral": {
+            "amount": 2
+          }
+        }
+      }
+    },
+    {
+      "barricaded": {
+        "identifier": 41,
+        "locationId": 42,
+        "consequence": {
+          "changeFood": {
+            "amount": 2
+          }
+        }
+      }
+    },
+    {
+      "barricaded": {
+        "identifier": 42,
+        "consequence": {
+          "changeMoral": {
+            "amount": 2
+          }
+        }
+      }
+    },
+    {
+      "moved": {
+        "identifier": 43,
+        "locationId": 1,
+        "consequence": {
+          "spawnSurvivors": {
+            "amount": 2,
+            "children": true
+          }
+        }
+      }
+    },
+    {
+      "moved": {
+        "identifier": 44,
+        "consequence": {
+          "spawnSurvivors": {
+            "amount": 1
+          }
+        }
+      }
+    },
+    {
+      "searched": {
+        "identifier": 45,
+        "consequence": {
+          "spawnZombies": {
+            "amount": 1
+          }
+        }
+      }
+    },
+    {
+      "searched": {
+        "identifier": 46,
+        "locationId": 2,
+        "consequence": {
+          "spawnZombies": {
+            "amount": 2,
+            "locationId": 42
+          }
+        }
+      }
+    },
+    {
+      "wasteChanged": {
+        "identifier": 47,
+        "amount": 2,
+        "consequence": {
+          "choice": {
+            "consequence1": {
+              "spawnZombies": {
+                "amount": 2,
+                "locationId": 42
+              }
+            },
+            "consequence2": {
+              "changeFood": {
+                "amount": 2
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "equip": {
+        "identifier": 48,
+        "consequence": {
+          "changeMoral": {
+            "amount": 2
+          }
+        }
+      }
+    },
+    {
+      "wasteChanged": {
+        "identifier": 49,
+        "amount": 2,
+        "consequence": {
+          "choice": {
+            "consequence1": {
+              "spawnZombies": {
+                "amount": 2,
+                "locationId": 42
+              }
+            },
+            "consequence2": {
+              "changeFood": {
+                "amount": 2
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "equip": {
+        "identifier": 50,
+        "consequence": {
+          "changeMoral": {
+            "amount": 2
+          }
+        }
+      }
+    }
+  ],
+  "cards": [
+    {
+      "blueprint": {
+        "location": 3,
+        "identifier": 1000
+      }
+    },
+    {
+      "blueprint": {
+        "location": 6,
+        "identifier": 1001
+      }
+    },
+    {
+      "blueprint": {
+        "location": 5,
+        "identifier": 1002
+      }
+    },
+    {
+      "blueprint": {
+        "location": 1,
+        "identifier": 1003
+      }
+    },
+    {
+      "blueprint": {
+        "location": 2,
+        "identifier": 1004
+      }
+    },
+    {
+      "blueprint": {
+        "location": 4,
+        "identifier": 1005
+      }
+    },
+    {
+      "blueprint": {
+        "location": 5,
+        "identifier": 1006
+      }
+    },
+    {
+      "colt": {
+        "identifier": 1007
+      }
+    },
+    {
+      "colt": {
+        "identifier": 1008
+      }
+    },
+    {
+      "colt": {
+        "identifier": 1009
+      }
+    },
+    {
+      "colt": {
+        "identifier": 1010
+      }
+    },
+    {
+      "colt": {
+        "identifier": 1011
+      }
+    },
+    {
+      "colt": {
+        "identifier": 1012
+      }
+    },
+    {
+      "colt": {
+        "identifier": 1013
+      }
+    },
+    {
+      "colt": {
+        "identifier": 1014
+      }
+    },
+    {
+      "colt": {
+        "identifier": 1015
+      }
+    },
+    {
+      "colt": {
+        "identifier": 1016
+      }
+    },
+    {
+      "food": {
+        "amount": 3,
+        "identifier": 1017
+      }
+    },
+    {
+      "food": {
+        "amount": 3,
+        "identifier": 1018
+      }
+    },
+    {
+      "food": {
+        "amount": 2,
+        "identifier": 1019
+      }
+    },
+    {
+      "food": {
+        "amount": 2,
+        "identifier": 1020
+      }
+    },
+    {
+      "food": {
+        "amount": 2,
+        "identifier": 1021
+      }
+    },
+    {
+      "food": {
+        "amount": 2,
+        "identifier": 1022
+      }
+    },
+    {
+      "food": {
+        "amount": 2,
+        "identifier": 1023
+      }
+    },
+    {
+      "food": {
+        "amount": 2,
+        "identifier": 1024
+      }
+    },
+    {
+      "food": {
+        "amount": 2,
+        "identifier": 1025
+      }
+    },
+    {
+      "food": {
+        "amount": 2,
+        "identifier": 1026
+      }
+    },
+    {
+      "food": {
+        "amount": 2,
+        "identifier": 1027
+      }
+    },
+    {
+      "food": {
+        "amount": 1,
+        "identifier": 1028
+      }
+    },
+    {
+      "food": {
+        "amount": 1,
+        "identifier": 1029
+      }
+    },
+    {
+      "food": {
+        "amount": 1,
+        "identifier": 1030
+      }
+    },
+    {
+      "food": {
+        "amount": 1,
+        "identifier": 1031
+      }
+    },
+    {
+      "food": {
+        "amount": 1,
+        "identifier": 1032
+      }
+    },
+    {
+      "food": {
+        "amount": 1,
+        "identifier": 1033
+      }
+    },
+    {
+      "food": {
+        "amount": 1,
+        "identifier": 1034
+      }
+    },
+    {
+      "food": {
+        "amount": 1,
+        "identifier": 1035
+      }
+    },
+    {
+      "food": {
+        "amount": 1,
+        "identifier": 1036
+      }
+    },
+    {
+      "food": {
+        "amount": 1,
+        "identifier": 1037
+      }
+    },
+    {
+      "food": {
+        "amount": 1,
+        "identifier": 1038
+      }
+    },
+    {
+      "food": {
+        "amount": 1,
+        "identifier": 1039
+      }
+    },
+    {
+      "food": {
+        "amount": 1,
+        "identifier": 1040
+      }
+    },
+    {
+      "food": {
+        "amount": 1,
+        "identifier": 1041
+      }
+    },
+    {
+      "food": {
+        "amount": 1,
+        "identifier": 1042
+      }
+    },
+    {
+      "food": {
+        "amount": 1,
+        "identifier": 1043
+      }
+    },
+    {
+      "food": {
+        "amount": 1,
+        "identifier": 1044
+      }
+    },
+    {
+      "food": {
+        "amount": 1,
+        "identifier": 1045
+      }
+    },
+    {
+      "food": {
+        "amount": 1,
+        "identifier": 1046
+      }
+    },
+    {
+      "food": {
+        "amount": 1,
+        "identifier": 1047
+      }
+    },
+    {
+      "food": {
+        "amount": 1,
+        "identifier": 1048
+      }
+    },
+    {
+      "food": {
+        "amount": 1,
+        "identifier": 1049
+      }
+    },
+    {
+      "food": {
+        "amount": 1,
+        "identifier": 1050
+      }
+    },
+    {
+      "food": {
+        "amount": 1,
+        "identifier": 1051
+      }
+    },
+    {
+      "food": {
+        "amount": 1,
+        "identifier": 1052
+      }
+    },
+    {
+      "food": {
+        "amount": 1,
+        "identifier": 1053
+      }
+    },
+    {
+      "food": {
+        "amount": 1,
+        "identifier": 1054
+      }
+    },
+    {
+      "food": {
+        "amount": 1,
+        "identifier": 1055
+      }
+    },
+    {
+      "food": {
+        "amount": 1,
+        "identifier": 1056
+      }
+    },
+    {
+      "food": {
+        "amount": 1,
+        "identifier": 1057
+      }
+    },
+    {
+      "food": {
+        "amount": 1,
+        "identifier": 1058
+      }
+    },
+    {
+      "food": {
+        "amount": 1,
+        "identifier": 1059
+      }
+    },
+    {
+      "food": {
+        "amount": 1,
+        "identifier": 1060
+      }
+    },
+    {
+      "food": {
+        "amount": 1,
+        "identifier": 1061
+      }
+    },
+    {
+      "food": {
+        "amount": 1,
+        "identifier": 1062
+      }
+    },
+    {
+      "fuel": {
+        "identifier": 1063
+      }
+    },
+    {
+      "fuel": {
+        "identifier": 1064
+      }
+    },
+    {
+      "fuel": {
+        "identifier": 1065
+      }
+    },
+    {
+      "fuel": {
+        "identifier": 1066
+      }
+    },
+    {
+      "fuel": {
+        "identifier": 1067
+      }
+    },
+    {
+      "fuel": {
+        "identifier": 1068
+      }
+    },
+    {
+      "fuel": {
+        "identifier": 1069
+      }
+    },
+    {
+      "fuel": {
+        "identifier": 1070
+      }
+    },
+    {
+      "fuel": {
+        "identifier": 1071
+      }
+    },
+    {
+      "fuel": {
+        "identifier": 1072
+      }
+    },
+    {
+      "fuel": {
+        "identifier": 1073
+      }
+    },
+    {
+      "fuel": {
+        "identifier": 1074
+      }
+    },
+    {
+      "fuel": {
+        "identifier": 1075
+      }
+    },
+    {
+      "fuel": {
+        "identifier": 1076
+      }
+    },
+    {
+      "fuel": {
+        "identifier": 1077
+      }
+    },
+    {
+      "fuel": {
+        "identifier": 1078
+      }
+    },
+    {
+      "fuel": {
+        "identifier": 1079
+      }
+    },
+    {
+      "fuel": {
+        "identifier": 1080
+      }
+    },
+    {
+      "fuel": {
+        "identifier": 1081
+      }
+    },
+    {
+      "fuel": {
+        "identifier": 1082
+      }
+    },
+    {
+      "fuel": {
+        "identifier": 1083
+      }
+    },
+    {
+      "fuel": {
+        "identifier": 1084
+      }
+    },
+    {
+      "fuel": {
+        "identifier": 1085
+      }
+    },
+    {
+      "fuel": {
+        "identifier": 1086
+      }
+    },
+    {
+      "fuel": {
+        "identifier": 1087
+      }
+    },
+    {
+      "fuel": {
+        "identifier": 1088
+      }
+    },
+    {
+      "fuel": {
+        "identifier": 1089
+      }
+    },
+    {
+      "fuel": {
+        "identifier": 1090
+      }
+    },
+    {
+      "fuel": {
+        "identifier": 1091
+      }
+    },
+    {
+      "hammer": {
+        "identifier": 1092
+      }
+    },
+    {
+      "hammer": {
+        "identifier": 1093
+      }
+    },
+    {
+      "hammer": {
+        "identifier": 1094
+      }
+    },
+    {
+      "hammer": {
+        "identifier": 1095
+      }
+    },
+    {
+      "hammer": {
+        "identifier": 1096
+      }
+    },
+    {
+      "lock": {
+        "identifier": 1097
+      }
+    },
+    {
+      "lock": {
+        "identifier": 1098
+      }
+    },
+    {
+      "lock": {
+        "identifier": 1099
+      }
+    },
+    {
+      "medicine": {
+        "identifier": 1100
+      }
+    },
+    {
+      "medicine": {
+        "identifier": 1101
+      }
+    },
+    {
+      "medicine": {
+        "identifier": 1102
+      }
+    },
+    {
+      "medicine": {
+        "identifier": 1103
+      }
+    },
+    {
+      "medicine": {
+        "identifier": 1104
+      }
+    },
+    {
+      "medicine": {
+        "identifier": 1105
+      }
+    },
+    {
+      "medicine": {
+        "identifier": 1106
+      }
+    },
+    {
+      "medicine": {
+        "identifier": 1107
+      }
+    },
+    {
+      "medicine": {
+        "identifier": 1108
+      }
+    },
+    {
+      "medicine": {
+        "identifier": 1109
+      }
+    },
+    {
+      "medicine": {
+        "identifier": 1110
+      }
+    },
+    {
+      "medicine": {
+        "identifier": 1111
+      }
+    },
+    {
+      "medicine": {
+        "identifier": 1112
+      }
+    },
+    {
+      "medicine": {
+        "identifier": 1113
+      }
+    },
+    {
+      "medicine": {
+        "identifier": 1114
+      }
+    },
+    {
+      "medicine": {
+        "identifier": 1115
+      }
+    },
+    {
+      "medicine": {
+        "identifier": 1116
+      }
+    },
+    {
+      "medicine": {
+        "identifier": 1117
+      }
+    },
+    {
+      "medicine": {
+        "identifier": 1118
+      }
+    },
+    {
+      "medicine": {
+        "identifier": 1119
+      }
+    },
+    {
+      "scissors": {
+        "identifier": 1120
+      }
+    },
+    {
+      "scissors": {
+        "identifier": 1121
+      }
+    },
+    {
+      "scissors": {
+        "identifier": 1122
+      }
+    },
+    {
+      "scissors": {
+        "identifier": 1123
+      }
+    },
+    {
+      "snow_boots": {
+        "identifier": 1124
+      }
+    },
+    {
+      "stuff": {
+        "identifier": 1125
+      }
+    },
+    {
+      "stuff": {
+        "identifier": 1126
+      }
+    },
+    {
+      "stuff": {
+        "identifier": 1127
+      }
+    },
+    {
+      "stuff": {
+        "identifier": 1128
+      }
+    },
+    {
+      "stuff": {
+        "identifier": 1129
+      }
+    },
+    {
+      "stuff": {
+        "identifier": 1130
+      }
+    },
+    {
+      "stuff": {
+        "identifier": 1131
+      }
+    },
+    {
+      "stuff": {
+        "identifier": 1132
+      }
+    },
+    {
+      "stuff": {
+        "identifier": 1133
+      }
+    },
+    {
+      "stuff": {
+        "identifier": 1134
+      }
+    },
+    {
+      "stuff": {
+        "identifier": 1135
+      }
+    },
+    {
+      "stuff": {
+        "identifier": 1136
+      }
+    },
+    {
+      "stuff": {
+        "identifier": 1137
+      }
+    },
+    {
+      "stuff": {
+        "identifier": 1138
+      }
+    },
+    {
+      "stuff": {
+        "identifier": 1139
+      }
+    },
+    {
+      "stuff": {
+        "identifier": 1140
+      }
+    },
+    {
+      "stuff": {
+        "identifier": 1141
+      }
+    },
+    {
+      "stuff": {
+        "identifier": 1142
+      }
+    },
+    {
+      "stuff": {
+        "identifier": 1143
+      }
+    },
+    {
+      "stuff": {
+        "identifier": 1144
+      }
+    },
+    {
+      "stuff": {
+        "identifier": 1145
+      }
+    },
+    {
+      "stuff": {
+        "identifier": 1146
+      }
+    },
+    {
+      "stuff": {
+        "identifier": 1147
+      }
+    },
+    {
+      "stuff": {
+        "identifier": 1148
+      }
+    },
+    {
+      "stuff": {
+        "identifier": 1149
+      }
+    },
+    {
+      "stuff": {
+        "identifier": 1150
+      }
+    },
+    {
+      "stuff": {
+        "identifier": 1151
+      }
+    },
+    {
+      "stuff": {
+        "identifier": 1152
+      }
+    },
+    {
+      "stuff": {
+        "identifier": 1153
+      }
+    },
+    {
+      "stuff": {
+        "identifier": 1154
+      }
+    },
+    {
+      "stuff": {
+        "identifier": 1155
+      }
+    },
+    {
+      "stuff": {
+        "identifier": 1156
+      }
+    },
+    {
+      "stuff": {
+        "identifier": 1157
+      }
+    },
+    {
+      "stuff": {
+        "identifier": 1158
+      }
+    },
+    {
+      "stuff": {
+        "identifier": 1159
+      }
+    },
+    {
+      "stuff": {
+        "identifier": 1160
+      }
+    },
+    {
+      "stuff": {
+        "identifier": 1161
+      }
+    },
+    {
+      "stuff": {
+        "identifier": 1162
+      }
+    },
+    {
+      "stuff": {
+        "identifier": 1163
+      }
+    },
+    {
+      "stuff": {
+        "identifier": 1164
+      }
+    },
+    {
+      "stuff": {
+        "identifier": 1165
+      }
+    },
+    {
+      "stuff": {
+        "identifier": 1166
+      }
+    },
+    {
+      "stuff": {
+        "identifier": 1167
+      }
+    },
+    {
+      "stuff": {
+        "identifier": 1168
+      }
+    },
+    {
+      "stuff": {
+        "identifier": 1169
+      }
+    },
+    {
+      "stuff": {
+        "identifier": 1170
+      }
+    },
+    {
+      "stuff": {
+        "identifier": 1171
+      }
+    },
+    {
+      "stuff": {
+        "identifier": 1172
+      }
+    },
+    {
+      "stuff": {
+        "identifier": 1173
+      }
+    },
+    {
+      "stuff": {
+        "identifier": 1174
+      }
+    },
+    {
+      "stuff": {
+        "identifier": 1175
+      }
+    },
+    {
+      "stuff": {
+        "identifier": 1176
+      }
+    },
+    {
+      "stuff": {
+        "identifier": 1177
+      }
+    },
+    {
+      "stuff": {
+        "identifier": 1178
+      }
+    },
+    {
+      "stuff": {
+        "identifier": 1179
+      }
+    },
+    {
+      "stuff": {
+        "identifier": 1180
+      }
+    },
+    {
+      "stuff": {
+        "identifier": 1181
+      }
+    },
+    {
+      "stuff": {
+        "identifier": 1182
+      }
+    },
+    {
+      "stuff": {
+        "identifier": 1183
+      }
+    },
+    {
+      "stuff": {
+        "identifier": 1184
+      }
+    },
+    {
+      "stuff": {
+        "identifier": 1185
+      }
+    },
+    {
+      "stuff": {
+        "identifier": 1186
+      }
+    },
+    {
+      "stuff": {
+        "identifier": 1187
+      }
+    },
+    {
+      "stuff": {
+        "identifier": 1188
+      }
+    },
+    {
+      "stuff": {
+        "identifier": 1189
+      }
+    },
+    {
+      "stuff": {
+        "identifier": 1190
+      }
+    },
+    {
+      "stuff": {
+        "identifier": 1191
+      }
+    },
+    {
+      "stuff": {
+        "identifier": 1192
+      }
+    },
+    {
+      "stuff": {
+        "identifier": 1193
+      }
+    },
+    {
+      "stuff": {
+        "identifier": 1194
+      }
+    },
+    {
+      "swab": {
+        "identifier": 1195
+      }
+    }
+  ],
+  "characters": [
+    {
+      "name": "Carla Thompson",
+      "identifier": 1,
+      "status": 22,
+      "attack": 4,
+      "search": 2,
+      "ability": {
+        "search": {
+          "maxActivations": 100,
+          "location": 1,
+          "numCards": 1
+        }
+      }
+    },
+    {
+      "name": "Brian Lee",
+      "identifier": 2,
+      "status": 68,
+      "attack": 3,
+      "search": 4,
+      "ability": {
+        "trash": {
+          "numCards": 4
+        }
+      }
+    },
+    {
+      "name": "David Garcia",
+      "identifier": 3,
+      "status": 50,
+      "attack": 4,
+      "search": 3,
+      "ability": {
+        "search": {
+          "maxActivations": 100,
+          "location": 3,
+          "numCards": 1
+        }
+      }
+    },
+    {
+      "name": "Jenny Clark",
+      "identifier": 4,
+      "status": 24,
+      "attack": 4,
+      "search": 3,
+      "ability": {
+        "search": {
+          "maxActivations": 1,
+          "location": 4,
+          "numCards": 3
+        }
+      }
+    },
+    {
+      "name": "Daniel Smith",
+      "identifier": 5,
+      "status": 66,
+      "attack": 2,
+      "search": 5,
+      "ability": {
+        "kill": {
+          "infectionDie": true,
+          "numZombies": 2,
+          "dieValue": 4,
+          "locationId": 42,
+          "maxActivations": 1
+        }
+      }
+    },
+    {
+      "name": "Brandon Kane",
+      "identifier": 6,
+      "status": 26,
+      "attack": 2,
+      "search": 4,
+      "ability": {
+        "trash": {
+          "numCards": 5
+        }
+      }
+    },
+    {
+      "name": "Gabriel Diaz",
+      "identifier": 7,
+      "status": 60,
+      "attack": 2,
+      "search": 3,
+      "ability": {
+        "heal": {}
+      }
+    },
+    {
+      "name": "Olivia Brown",
+      "identifier": 8,
+      "status": 56,
+      "attack": 4,
+      "search": 3,
+      "ability": {
+        "heal": {}
+      }
+    },
+    {
+      "name": "Kodiak Colby",
+      "identifier": 9,
+      "status": 31,
+      "attack": 2,
+      "search": 2,
+      "ability": {
+        "kill": {
+          "numZombies": 1,
+          "dieValue": 4,
+          "locationId": 42,
+          "maxActivations": 3
+        }
+      }
+    },
+    {
+      "name": "Bev Russell",
+      "identifier": 10,
+      "status": 34,
+      "attack": 2,
+      "search": 4,
+      "ability": {
+        "kill": {
+          "children": true,
+          "numZombies": 2,
+          "dieValue": 1,
+          "locationId": 42,
+          "maxActivations": 1
+        }
+      }
+    },
+    {
+      "name": "Talia Jones",
+      "identifier": 11,
+      "status": 28,
+      "attack": 3,
+      "search": 1,
+      "ability": {
+        "search": {
+          "maxActivations": 1,
+          "location": 5,
+          "numCards": 2
+        }
+      }
+    },
+    {
+      "name": "Loretta Clay",
+      "identifier": 12,
+      "status": 20,
+      "attack": 2,
+      "search": 4,
+      "ability": {
+        "feed": {
+          "numFood": 2
+        }
+      }
+    },
+    {
+      "name": "Thomas Heart",
+      "identifier": 31,
+      "status": 64,
+      "attack": 1,
+      "search": 3,
+      "ability": {
+        "kill": {
+          "numZombies": 2,
+          "dieValue": 5,
+          "locationId": 42,
+          "maxActivations": 1
+        }
+      }
+    },
+    {
+      "name": "John Price",
+      "identifier": 13,
+      "status": 18,
+      "attack": 3,
+      "search": 3,
+      "ability": {
+        "barricade": {
+          "numBarricades": 2,
+          "maxActivations": 1
+        }
+      }
+    },
+    {
+      "name": "Alexis Grey",
+      "identifier": 14,
+      "status": 46,
+      "attack": 5,
+      "search": 4,
+      "ability": {
+        "search": {
+          "maxActivations": 100,
+          "location": 4,
+          "numCards": 1
+        }
+      }
+    },
+    {
+      "name": "Ashley Ross",
+      "identifier": 15,
+      "status": 52,
+      "attack": 2,
+      "search": 5,
+      "ability": {
+        "barricade": {
+          "numBarricades": 1,
+          "maxActivations": 1
+        }
+      }
+    },
+    {
+      "name": "Maria Lopez",
+      "identifier": 16,
+      "status": 48,
+      "attack": 4,
+      "search": 2,
+      "ability": {
+        "kill": {
+          "numZombies": 1,
+          "dieValue": 1,
+          "locationId": 3,
+          "maxActivations": 1
+        }
+      }
+    },
+    {
+      "name": "Harman Brooks",
+      "identifier": 17,
+      "status": 32,
+      "attack": 3,
+      "search": 3,
+      "ability": {
+        "wound": {
+          "before": "frostBite",
+          "after": "wound"
+        }
+      }
+    },
+    {
+      "name": "Arthur Thurston",
+      "identifier": 18,
+      "status": 62,
+      "attack": 4,
+      "search": 2,
+      "ability": {
+        "search": {
+          "maxActivations": 100,
+          "location": 3,
+          "numCards": 1
+        }
+      }
+    },
+    {
+      "name": "Sophie Robinson",
+      "identifier": 19,
+      "status": 58,
+      "attack": 4,
+      "search": 1,
+      "ability": {
+        "search": {
+          "maxActivations": 1,
+          "location": 1,
+          "numCards": 1
+        }
+      }
+    },
+    {
+      "name": "Rod Miller",
+      "identifier": 20,
+      "status": 40,
+      "attack": 3,
+      "search": 3,
+      "ability": {
+        "no_infection": {}
+      }
+    },
+    {
+      "name": "Edward White",
+      "identifier": 21,
+      "status": 44,
+      "attack": 4,
+      "search": 3,
+      "ability": {
+        "kill": {
+          "numZombies": 3,
+          "dieValue": 5,
+          "locationId": 42,
+          "maxActivations": 1
+        }
+      }
+    },
+    {
+      "name": "Andrew Evans",
+      "identifier": 22,
+      "status": 12,
+      "attack": 3,
+      "search": 3,
+      "ability": {
+        "search": {
+          "maxActivations": 100,
+          "location": 2,
+          "numCards": 1
+        }
+      }
+    },
+    {
+      "name": "Sparky",
+      "identifier": 23,
+      "status": 10,
+      "attack": 2,
+      "search": 2,
+      "ability": {
+        "wound": {
+          "before": "bite",
+          "after": "wound"
+        }
+      }
+    },
+    {
+      "name": "Mike Cho",
+      "identifier": 24,
+      "status": 30,
+      "attack": 2,
+      "search": 4,
+      "ability": {
+        "no_infection": {}
+      }
+    },
+    {
+      "name": "Graubart",
+      "identifier": 25,
+      "status": 16,
+      "attack": 1,
+      "search": 4,
+      "ability": {
+        "wound": {
+          "before": "bite",
+          "after": "frostBite"
+        }
+      }
+    },
+    {
+      "name": "Annaleigh Chan",
+      "identifier": 26,
+      "status": 38,
+      "attack": 2,
+      "search": 2,
+      "ability": {
+        "trash": {
+          "numCards": 4
+        }
+      }
+    },
+    {
+      "name": "James Meyers",
+      "identifier": 27,
+      "status": 54,
+      "attack": 6,
+      "search": 3,
+      "ability": {
+        "barricade": {
+          "numBarricades": 2,
+          "maxActivations": 1
+        }
+      }
+    },
+    {
+      "name": "Forest Plum",
+      "identifier": 28,
+      "status": 14,
+      "attack": 2,
+      "search": 5,
+      "ability": {
+        "wound": {
+          "before": "bite",
+          "after": "bite"
+        }
+      }
+    },
+    {
+      "name": "Janet Taylor",
+      "identifier": 29,
+      "status": 42,
+      "attack": 3,
+      "search": 4,
+      "ability": {
+        "search": {
+          "maxActivations": 100,
+          "location": 5,
+          "numCards": 1
+        }
+      }
+    },
+    {
+      "name": "Buddy Davis",
+      "identifier": 30,
+      "status": 36,
+      "attack": 2,
+      "search": 4,
+      "ability": {
+        "wound": {
+          "before": "bite",
+          "after": "frostBite"
+        }
+      }
+    }
+  ],
+  "crises": [
+    {
+      "food": {
+        "requiredCards": 5,
+        "moralChange": 2,
+        "identifier": 11
+      }
+    },
+    {
+      "stuff": {
+        "requiredCards": 5,
+        "moralChange": 2,
+        "identifier": 12
+      }
+    },
+    {
+      "medicine": {
+        "requiredCards": 5,
+        "moralChange": 2,
+        "identifier": 13
+      }
+    },
+    {
+      "fuel": {
+        "requiredCards": 5,
+        "moralChange": 2,
+        "identifier": 14
+      }
+    },
+    {
+      "food": {
+        "requiredCards": 5,
+        "moralChange": 2,
+        "identifier": 21
+      }
+    },
+    {
+      "stuff": {
+        "requiredCards": 5,
+        "moralChange": 2,
+        "identifier": 22
+      }
+    },
+    {
+      "medicine": {
+        "requiredCards": 5,
+        "moralChange": 2,
+        "identifier": 23
+      }
+    },
+    {
+      "fuel": {
+        "requiredCards": 5,
+        "moralChange": 2,
+        "identifier": 24
+      }
+    },
+    {
+      "food": {
+        "requiredCards": 5,
+        "moralChange": 2,
+        "identifier": 31
+      }
+    },
+    {
+      "stuff": {
+        "requiredCards": 5,
+        "moralChange": 2,
+        "identifier": 32
+      }
+    },
+    {
+      "medicine": {
+        "requiredCards": 5,
+        "moralChange": 2,
+        "identifier": 33
+      }
+    },
+    {
+      "fuel": {
+        "requiredCards": 5,
+        "moralChange": 2,
+        "identifier": 34
+      }
+    }
+  ],
+  "goal": {
+    "rounds": 2,
+    "moral": 16,
+    "zombiesColony": 3,
+    "zombiesLocations": 1,
+    "survive": true,
+    "childrenInColony": 1
+  },
+  "locations": [
+    {
+      "colony": {
+        "identifier": 42,
+        "entrances": 3,
+        "startCards": [
+          1000,
+          1007,
+          1008,
+          1017,
+          1019,
+          1020,
+          1028,
+          1029,
+          1030,
+          1031,
+          1032,
+          1063,
+          1064,
+          1065,
+          1066,
+          1092,
+          1097,
+          1100,
+          1101,
+          1102,
+          1120,
+          1124,
+          1125,
+          1126,
+          1127,
+          1128,
+          1129,
+          1130,
+          1131,
+          1132,
+          1133,
+          1134,
+          1195
+        ]
+      }
+    },
+    {
+      "name": "Police Station",
+      "identifier": 1,
+      "entrances": 1,
+      "survivorSpaces": 3,
+      "cards": [
+        1001,
+        1009,
+        1010,
+        1018,
+        1021,
+        1022,
+        1033,
+        1034,
+        1035,
+        1036,
+        1037,
+        1067,
+        1068,
+        1069,
+        1070,
+        1093,
+        1098,
+        1103,
+        1104,
+        1105,
+        1121,
+        1135,
+        1136,
+        1137,
+        1138,
+        1139,
+        1140,
+        1141,
+        1142,
+        1143,
+        1144
+      ]
+    },
+    {
+      "name": "Supermarket",
+      "identifier": 2,
+      "entrances": 1,
+      "survivorSpaces": 3,
+      "cards": [
+        1002,
+        1011,
+        1023,
+        1038,
+        1039,
+        1040,
+        1041,
+        1042,
+        1071,
+        1072,
+        1073,
+        1074,
+        1094,
+        1099,
+        1106,
+        1107,
+        1108,
+        1122,
+        1145,
+        1146,
+        1147,
+        1148,
+        1149,
+        1150,
+        1151,
+        1152,
+        1153,
+        1154
+      ]
+    },
+    {
+      "name": "School",
+      "identifier": 3,
+      "entrances": 2,
+      "survivorSpaces": 4,
+      "cards": [
+        1003,
+        1012,
+        1024,
+        1043,
+        1044,
+        1045,
+        1046,
+        1047,
+        1075,
+        1076,
+        1077,
+        1078,
+        1095,
+        1109,
+        1110,
+        1111,
+        1123,
+        1155,
+        1156,
+        1157,
+        1158,
+        1159,
+        1160,
+        1161,
+        1162,
+        1163,
+        1164
+      ]
+    },
+    {
+      "name": "Library",
+      "identifier": 4,
+      "entrances": 1,
+      "survivorSpaces": 3,
+      "cards": [
+        1004,
+        1013,
+        1025,
+        1048,
+        1049,
+        1050,
+        1051,
+        1052,
+        1079,
+        1080,
+        1081,
+        1082,
+        1096,
+        1112,
+        1113,
+        1114,
+        1165,
+        1166,
+        1167,
+        1168,
+        1169,
+        1170,
+        1171,
+        1172,
+        1173,
+        1174
+      ]
+    },
+    {
+      "name": "Hospital",
+      "identifier": 5,
+      "entrances": 1,
+      "survivorSpaces": 4,
+      "cards": [
+        1005,
+        1014,
+        1026,
+        1053,
+        1054,
+        1055,
+        1056,
+        1057,
+        1083,
+        1084,
+        1085,
+        1086,
+        1115,
+        1116,
+        1117,
+        1175,
+        1176,
+        1177,
+        1178,
+        1179,
+        1180,
+        1181,
+        1182,
+        1183,
+        1184
+      ]
+    },
+    {
+      "name": "Gas Station",
+      "identifier": 6,
+      "entrances": 1,
+      "survivorSpaces": 2,
+      "cards": [
+        1006,
+        1015,
+        1016,
+        1027,
+        1058,
+        1059,
+        1060,
+        1061,
+        1062,
+        1087,
+        1088,
+        1089,
+        1090,
+        1091,
+        1118,
+        1119,
+        1185,
+        1186,
+        1187,
+        1188,
+        1189,
+        1190,
+        1191,
+        1192,
+        1193,
+        1194
+      ]
+    }
+  ]
+}

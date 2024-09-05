@@ -1,0 +1,137 @@
+{
+  "$defs": {
+    "crossroad": {
+      "type": "object",
+      "oneOf": [
+        {
+          "additionalProperties": false,
+          "properties": {
+            "barricaded": {
+              "additionalProperties": false,
+              "properties": {
+                "identifier": {
+                  "$ref": "definitions.schema#/$defs/identifier"
+                },
+                "locationId": {
+                  "type": "number"
+                },
+                "consequence": {
+                  "$ref": "consequences.schema#/$defs/consequence"
+                }
+              },
+              "required": [
+                "identifier",
+                "consequence"
+              ]
+            }
+          },
+          "required": [
+            "barricaded"
+          ]
+        },
+        {
+          "additionalProperties": false,
+          "properties": {
+            "moved": {
+              "additionalProperties": false,
+              "properties": {
+                "identifier": {
+                  "$ref": "definitions.schema#/$defs/identifier"
+                },
+                "locationId": {
+                  "type": "number"
+                },
+                "consequence": {
+                  "$ref": "consequences.schema#/$defs/consequence"
+                }
+              },
+              "required": [
+                "identifier",
+                "consequence"
+              ]
+            }
+          },
+          "required": [
+            "moved"
+          ]
+        },
+        {
+          "additionalProperties": false,
+          "properties": {
+            "searched": {
+              "additionalProperties": false,
+              "properties": {
+                "identifier": {
+                  "$ref": "definitions.schema#/$defs/identifier"
+                },
+                "locationId": {
+                  "type": "number"
+                },
+                "consequence": {
+                  "$ref": "consequences.schema#/$defs/consequence"
+                }
+              },
+              "required": [
+                "identifier",
+                "consequence"
+              ]
+            }
+          },
+          "required": [
+            "searched"
+          ]
+        },
+        {
+          "additionalProperties": false,
+          "properties": {
+            "wasteChanged": {
+              "additionalProperties": false,
+              "properties": {
+                "identifier": {
+                  "$ref": "definitions.schema#/$defs/identifier"
+                },
+                "amount": {
+                  "type": "number"
+                },
+                "consequence": {
+                  "$ref": "consequences.schema#/$defs/consequence"
+                }
+              },
+              "required": [
+                "identifier",
+                "amount",
+                "consequence"
+              ]
+            }
+          },
+          "required": [
+            "wasteChanged"
+          ]
+        },
+        {
+          "additionalProperties": false,
+          "properties": {
+            "equip": {
+              "additionalProperties": false,
+              "properties": {
+                "identifier": {
+                  "$ref": "definitions.schema#/$defs/identifier"
+                },
+                "consequence": {
+                  "$ref": "consequences.schema#/$defs/consequence"
+                }
+              },
+              "required": [
+                "identifier",
+                "consequence"
+              ]
+            }
+          },
+          "required": [
+            "equip"
+          ]
+        }
+      ]
+    }
+  }
+}

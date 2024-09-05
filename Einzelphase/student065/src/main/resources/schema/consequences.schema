@@ -1,0 +1,120 @@
+{
+  "$defs": {
+    "consequence": {
+      "type": "object",
+      "oneOf": [
+        {
+          "additionalProperties": false,
+          "properties": {
+            "changeFood": {
+              "additionalProperties": false,
+              "type": "object",
+              "properties": {
+                "amount": {
+                  "$ref": "consequences.schema#/$defs/amount"
+                }
+              },
+              "required": [
+                "amount"
+              ]
+            }
+          },
+          "required": [
+            "changeFood"
+          ]
+        },
+        {
+          "additionalProperties": false,
+          "properties": {
+            "changeMoral": {
+              "additionalProperties": false,
+              "type": "object",
+              "properties": {
+                "amount": {
+                  "$ref": "consequences.schema#/$defs/amount"
+                }
+              },
+              "required": [
+                "amount"
+              ]
+            }
+          },
+          "required": [
+            "changeMoral"
+          ]
+        },
+        {
+          "additionalProperties": false,
+          "properties": {
+            "spawnSurvivors": {
+              "type": "object",
+              "properties": {
+                "amount": {
+                  "$ref": "consequences.schema#/$defs/amount"
+                },
+                "children": {
+                  "type": "boolean"
+                }
+              },
+              "required": [
+                "amount"
+              ]
+            }
+          },
+          "required": [
+            "spawnSurvivors"
+          ]
+        },
+        {
+          "additionalProperties": false,
+          "properties": {
+            "spawnZombies": {
+              "type": "object",
+              "properties": {
+                "amount": {
+                  "$ref": "consequences.schema#/$defs/amount"
+                },
+                "locationId": {
+                  "$ref": "definitions.schema#/$defs/identifier"
+                }
+              },
+              "required": [
+                "amount"
+              ]
+            }
+          },
+          "required": [
+            "spawnZombies"
+          ]
+        },
+        {
+          "additionalProperties": false,
+          "properties": {
+            "choice": {
+              "type": "object",
+              "properties": {
+                "consequence1": {
+                  "$ref": "consequences.schema#/$defs/consequence"
+                },
+                "consequence2": {
+                  "$ref": "consequences.schema#/$defs/consequence"
+                }
+              },
+              "required": [
+                "consequence1",
+                "consequence2"
+              ]
+            }
+          },
+          "required": [
+            "choice"
+          ]
+        }
+      ]
+
+    },
+    "amount": {
+      "type": "number"
+    }
+  }
+}
